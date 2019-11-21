@@ -1,0 +1,12 @@
+extends layouts/main
+
+block content
+    .title 로그인
+    .message #{message}     
+    form(action="/login", method="post")
+        input(type="email", name="email", placeholder=" 이메일", required=true)
+        input(type="password", name="password", placeholder=" 비밀번호", required=true)
+        input(type="submit", class="btn", value="로그인")
+    .sign__up
+        p.sign__up-text 아직 회원이 아니신가요?          
+        a.sign__up-a(href=`/join`) 회원가입하기

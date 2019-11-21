@@ -1,0 +1,8 @@
+extends layouts/main
+
+block content
+    .block
+    .title  환영합니다
+    .message #{email}
+    form(action="/logout", method="get")   
+        input(type="submit", class="btn", value="로그아웃")

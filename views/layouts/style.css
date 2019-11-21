@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+body {
+  font-family: "Open Sans";
+  background-color: #f8f7ff;
+  margin: 20px;
+}
+
+main {
+  width: 300px;
+  height: 600px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #f0f0f5;
+  box-shadow: 5px 5px 5px 5px #bcc2ce;
+}
+
+.main__inside {
+  width: 280px;
+  height: 570px;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  border-radius: 40px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.title,
+.message {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  font-weight: 700;
+  height: 50px;
+}
+
+.message {
+  opacity: 0.6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #f4f4f4;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.passwordMessage {
+  font-size: 10px;
+  opacity: 0.6;
+  position: relative;
+  bottom: 15px;
+  left: -10px;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  width: 230px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.sign__up {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+a {
+  color: #ea7b87;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.block {
+  margin-top: 100px;
+}
+
+.resend-email {
+  color: white;
+  background-color: red;
+  width: 230px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 30px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  display: none;
+}
